@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>(Positive)
+Check if chatbot widget has a Get Started button</description>
+   <name>UAT03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34e4ef09-27d1-4b55-b14f-8845a7c1598b</testCaseGuid>
+</TestCaseEntity>

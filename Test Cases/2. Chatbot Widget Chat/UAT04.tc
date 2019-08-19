@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>(Positive)
+Click Chatbot get started button</description>
+   <name>UAT04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b9dc716-4289-4264-9311-475cd946f008</testCaseGuid>
+</TestCaseEntity>

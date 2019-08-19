@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>(Positive)
+heck if chatbot chat automatically showed</description>
+   <name>UAT05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4bac2dda-1c51-4155-a03e-2c1a5d214262</testCaseGuid>
+</TestCaseEntity>

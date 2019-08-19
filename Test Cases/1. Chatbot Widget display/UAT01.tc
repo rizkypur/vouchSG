@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>(Positive)
+Check if chatbot widget is showed</description>
+   <name>UAT01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8756427-e461-4b92-8de9-38da8acffb78</testCaseGuid>
+</TestCaseEntity>

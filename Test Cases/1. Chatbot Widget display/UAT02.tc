@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>(Positive)
+Check if chatbot widget is open automatically after 7 second</description>
+   <name>UAT02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7a7cf93-ac04-4ba3-a19c-f30cbcc30458</testCaseGuid>
+</TestCaseEntity>
