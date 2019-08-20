@@ -13,3 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079')
+
+if (WebUI.verifyElementPresent(findTestObject("Chatbot/vc-chatbot-popup"), 10)){
+	this.println("Showed")
+}else{
+	this.println("Not Showed!")
+}
+
+WebUI.takeScreenshot('D:\\Project\\vouchSG\\Data Files\\Screenshot')
+
+WebUI.closeBrowser()

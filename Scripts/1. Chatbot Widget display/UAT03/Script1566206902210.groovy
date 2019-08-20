@@ -13,3 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://staging.vouch.sg/api/v1/merchants/bot/5c0899a0f82bb561b4eff079')
+
+WebUI.click(findTestObject("id=vc-input"))
+WebUI.typeOnImage(findTestObject("id=vc-input", "I want to book a hotel"))
+WebUI.sendKeys(findTestObject("id=vc-input", "${KEY_ENTER}"))
+WebUI.typeOnImage(findTestObject("id=vc-input", "recommended hotel near Gardens by the bay"))
+WebUI.sendKeys(findTestObject("id=vc-input", "${KEY_ENTER}"))
+WebUI.click(findTestObject("id=vc-input"))
+WebUI.typeOnImage(findTestObject("id=vc-input", "Thank you"))
+WebUI.sendKeys(findTestObject("id=vc-input", "${KEY_ENTER}"))
+
+WebUI.closeBrowser()
